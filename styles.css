@@ -1393,7 +1393,33 @@ footer a {
     max-width: 25px;
   }
 }
+@media (max-width: 768px) {
+  .social-media {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
 
+  .social-media a {
+    font-size: 1rem; /* Adjust font size for better readability */
+    gap: 10px; /* Maintain space between icon and text */
+  }
+
+  .social-media i {
+    font-size: 1.2rem; /* Reduce icon size for mobile */
+  }
+}
+
+/* Media Query for very small screens (extra small devices) */
+@media (max-width: 480px) {
+  .social-media a {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    gap: 8px;
+  }
+
+  .social-media i {
+    font-size: 1rem; /* Further reduce icon size */
+  }
+}
 
 /* .contact-container {
   display: flex;
