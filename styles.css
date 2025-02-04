@@ -36,6 +36,64 @@ header p {
 
 
 
+
+
+.header {
+  background-color: #0A5C5C; /* Main header background remains unchanged */
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* border-radius: 15px; */
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px; /* Spacing between text and logo */
+}
+
+.header-text {
+  text-align: center;
+  flex: 1; /* Allow text to occupy available space */
+  
+}
+
+.header-text h1 {
+  font-size: 2.5em;
+  color:white;
+  margin: 0;
+}
+
+.header-text p {
+  font-size: 1.2em;
+  color: white;
+  margin: 5px 0;
+}
+
+/* Logo container styling */
+.logo-container {
+  background-color:white; /* Dark green background for logo */
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners around the logo */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 100px; /* Increase the logo size */
+  width: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
 /* Sticky Navigation */
 .sticky-nav {
   position: sticky;
